@@ -1,0 +1,42 @@
+.app-shell {
+  align-items: center;
+  background:
+    radial-gradient(circle at top left, rgba(96, 165, 250, 0.28), transparent 34rem),
+    linear-gradient(135deg, #0f172a 0%, #111827 52%, #172554 100%);
+  color: #f8fafc;
+  display: flex;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.hero-card {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 28px;
+  box-shadow: 0 24px 80px rgba(15, 23, 42, 0.38);
+  margin: 0 auto;
+  max-width: 760px;
+  padding: clamp(2rem, 7vw, 5rem);
+}
+
+.eyebrow {
+  color: #93c5fd;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  margin: 0 0 1rem;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: clamp(2.4rem, 6vw, 5.5rem);
+  line-height: 0.95;
+  margin: 0;
+}
+
+.hero-copy {
+  color: #cbd5e1;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  line-height: 1.7;
+  margin: 1.5rem 0 0;
+  max-width: 42rem;
+}
